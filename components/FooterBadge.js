@@ -12,7 +12,7 @@ import { Container, Header, Content, Footer, FooterTab, Button, Icon,Badge } fro
 export default class FooterBadge extends Component {
   render() {
      return (
-        <Container>
+        
 
         <Footer>
           <FooterTab>
@@ -36,13 +36,9 @@ export default class FooterBadge extends Component {
             </Button>
           </FooterTab>
         </Footer>
-      </Container>
+      
     );
    }
-  }
+  };
 
-const styles = StyleSheet.create({
-   container:{
-       flex:1,
-      },
-    }),
+
